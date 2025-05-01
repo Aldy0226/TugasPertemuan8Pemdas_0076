@@ -19,8 +19,20 @@ class Segitiga
         {
             return 0.5 * a * t;
         }
-
     
+    public :
+    void outputData()
+    {
+        if (alas % 2 == 0) 
+        {
+            cout << "Luas Segitiga : " << luas (alas, tinggi) << "cm" << endl;
+        } else
+        {
+            cout << "Alas Yang dimasukkan adalah bilangan ganjil. Luas tidak dapat dihitung";
+        }
+            
+    }
+
     
 };
 
