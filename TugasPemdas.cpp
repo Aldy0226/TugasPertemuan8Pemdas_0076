@@ -33,14 +33,14 @@ class Segitiga
             
     }
 
-    int main()
-    {
-        Segitiga ziz;
-        
-        ziz.inputData();
-    
-        ziz.outputData();
-    }
-
 };
+
+int main()
+{
+    Segitiga ziz;
+        
+    ziz.inputData();
+    
+    ziz.outputData();
+}
 
